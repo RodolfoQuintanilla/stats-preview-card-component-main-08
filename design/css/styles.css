@@ -1,0 +1,89 @@
+:root {
+  /* ### Primary */
+
+  --Verydarkblue: hsl(233, 47%, 7%);
+  --Darkdesaturatedblue: hsl(244, 38%, 16%);
+  --Softviolet: hsl(277, 64%, 61%);
+
+  /* ### Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Slightly: hsla(0, 0%, 100%, 0.75);
+  --Slightly2: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  background-color: var(--Verydarkblue);
+}
+
+.container {
+  margin-top: 10%;
+  background-color: var(--Darkdesaturatedblue);
+  color: var(--White);
+}
+
+.foto {
+  padding: 0;
+}
+
+.carta {
+  width: 800px;
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.textos {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.span {
+  color: var(--Softviolet);
+}
+
+.rrr{
+    font-weight: 900;
+}
+
+/* .numero{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+} */
+
+
+.you{
+    display: flex;
+}
+
+.xxx{
+    flex-direction: column-reverse;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+color: white;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width:890px) {
+   
+  .carta{
+  
+  }
+    
+  }
